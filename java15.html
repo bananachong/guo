@@ -1,0 +1,1277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        html,body{
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        .outer{
+            width: 100%;
+        }
+        .header{
+
+            width: 100%;
+            background: gainsboro;
+            min-width: 1500px;
+        }
+        .center{
+            width: 100%;
+            height: 60px;
+            background: white;
+        }
+        .center-1{
+
+
+        }
+        .img{
+            float: left;
+            padding-left: 10%;
+        }
+        .biao1{
+            margin-left: 60px;
+            float: left;
+            margin-top: 30px;
+        }
+        .img1{
+            float: left;
+            padding-left: 10%;
+            margin-top: 20px;
+        }
+
+        .an{
+            float: left;
+            padding-top: 20px;
+            padding-left: 30px;
+
+        }
+        .tu{
+            float: left;
+
+
+        }
+        .tu1{
+
+            float: left;
+            width: 100%;
+
+        }
+        a:hover{
+            color: red;
+        }
+
+        .re{
+            width: 100%;
+            height: 30px;
+            float: left;
+            background: honeydew;
+
+
+        }
+        .re-1{
+            font-size: large;
+            margin-left: 270px ;
+
+        }
+
+
+        .zi{
+            width: 300px;
+            height: 300px;
+            float: left;
+            margin-right: 500px;
+            color: white;
+            position: absolute;
+            left: 1250px;
+
+
+        }
+        .shen{
+            background: red;
+            width: 120px;
+            height: 30px;
+            text-align:center;
+        }
+        .zi-1{
+            background:darkgrey;
+            color: white;
+            width: 80px;
+            height: 25px;
+            font-size: 10px;
+            opacity: 0.3;
+            text-align:center;
+            float: left;
+            margin-right: 10px;
+        }
+        .zi-2{
+            background: darkgrey;
+            width: 60px;
+            height: 25px;
+            font-size: 10px;
+            opacity: 0.3;
+            text-align:center;
+            float: left;
+            margin-right: 8px;
+        }
+        .zi-3{
+            background: darkgrey;
+            width: 40px;
+            height: 25px;
+            font-size: 10px;
+            opacity: 0.3;
+            text-align:center;
+            float: left;
+            margin-right: 8px;
+        }
+        .limg{
+            width: 1800px;
+            height: 380px;
+            background: white;
+            overflow: hidden
+        }
+        .limg-1{
+            height: 350px;
+            width: 250px;
+            background: white;
+            float: left;
+
+            margin-right: 10px;
+            position: relative;
+
+        }
+        .limg-1-1{
+            position: absolute;
+            left: 200px;
+            bottom: 30%;
+        }
+        .limg-2{
+            height: 350px;
+            width: 300px;
+            background: white;
+            float: left;
+            margin-right: 10px;
+            border: 1px solid lightgray;
+
+        }
+
+        .limg-2-1{
+            float: left;
+            position: relative;
+        }
+        .limg-2-a{
+            width: 40px;
+            height: 20px;
+            text-align:center;
+            color: white;
+            float: left;
+            background: red;
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+        .limg-3{
+            height: 350px;
+            width: 300px;
+            background: white;
+            float: left;
+            margin-right: 10px;
+            border: 1px solid lightgray;
+        }
+        .limg-2-2{
+            float: left;
+            position: relative;
+        }
+        .limg-2-b{
+            width: 80px;
+            height: 20px;
+            text-align:center;
+            color: orange;
+            float: left;
+            background: yellow;
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+        .limg-4{
+              height: 350px;
+              width: 300px;
+              background: white;
+              float: left;
+              margin-right: 10px;
+            border: 1px solid lightgray;
+          }
+        .limg-5{
+            height: 350px;
+            width: 300px;
+            background: white;
+            float: left;
+            margin-right: 10px;
+            border: 1px solid lightgray;
+        }
+        .limg-6{
+            height: 350px;
+            width: 250px;
+            background: white;
+            float: left;
+            margin-right: 10px;
+            position: relative;
+        }
+        .limg-6-1{
+            position: absolute;
+            bottom: 30%;
+        }
+        .ba{
+            text-align:center;
+        }
+        .ba-1{
+            width: 50px;
+            height:30px;
+            background: white;
+            color: red;
+            float: left;
+            text-align:center;
+            margin-left: 50px;
+            border: 1px solid red;
+        }
+        .ba-2{
+            width: 50px;
+            height:30px;
+            background: white;
+            color: red;
+            float: left;
+            text-align:center;
+            margin-left: 100px;
+            border: 1px solid red;
+        }
+        .ba-3{
+            text-align:center;
+        }
+        .ba-4{
+            text-align:center;
+        }
+        .baogao{
+            width: 100%;
+            height: 800px;
+            float: left;
+            background: lightgray;
+        }
+        .baogao1{
+            width: 100%;
+            height: 40px;
+            float: left;
+            background: honeydew;
+        }
+        .baogao1-1{
+            font-size: large;
+            margin-left: 270px ;
+
+        }
+        .meinv{
+            width: 1800px;
+            height: 380px;
+            background: lightgoldenrodyellow;
+            overflow: hidden
+
+        }
+        .meinv-1{
+            float: left;
+            height: 350px;
+            width: 240px;
+            background: lightgoldenrodyellow;
+            margin-right: 10px;
+            margin-top: 10px;
+
+        }
+        .meinv-2{
+            height: 350px;
+            width: 300px;
+            background: white;
+            float: left;
+            margin-top: 10px;
+            margin-right: 10px;
+            position: relative;
+        }
+        .meinv-2-1{
+             font-size: 15px;
+         }
+        .meinv-2-2{
+            position: absolute;
+            left: 0;
+            bottom: 0;
+        }
+        .meinv-2-3{
+            position: absolute;
+            bottom: 0;
+            right: 30%;
+        }
+        .meinv-2-4{
+            position: absolute;
+            bottom: 0;
+            right: 10%;
+        }
+
+
+        .meinv-3{
+            height: 350px;
+            width: 300px;
+            background: white;
+            float: left;
+            margin-top: 10px;
+            margin-right: 10px;
+            position: relative;
+        }
+        .meinv-3-1{
+            font-size: 15px;
+        }
+        .meinv-3-2{
+            position: absolute;
+            left: 0;
+            bottom: 0;
+        }
+        .meinv-3-3{
+            position: absolute;
+            bottom: 0;
+            right: 30%;
+        }
+        .meinv-3-4{
+            position: absolute;
+            bottom: 0;
+            right: 10%;
+        }
+        .meinv-4{
+            height: 350px;
+            width: 300px;
+            background: white;
+            float: left;
+            margin-top: 10px;
+            margin-right: 10px;
+            position: relative;
+        }
+        .meinv-4-1{
+            font-size: 15px;
+        }
+        .meinv-4-2{
+            position: absolute;
+            left: 0;
+            bottom: 0;
+        }
+        .meinv-4-3{
+            position: absolute;
+            bottom: 0;
+            right: 30%;
+        }
+        .meinv-4-4{
+            position: absolute;
+            bottom: 0;
+            right: 10%;
+        }
+        .meinv-5{
+            height: 350px;
+            width: 300px;
+            background: white;
+            float: left;
+            margin-top: 10px;
+            margin-right: 10px;
+            position: relative;
+        }
+        .meinv-5-1{
+            font-size: 15px;
+        }
+        .meinv-5-2{
+            position: absolute;
+            left: 0;
+            bottom: 0;
+        }
+        .meinv-5-3{
+            position: absolute;
+            bottom: 0;
+            right: 30%;
+        }
+        .meinv-5-4{
+            position: absolute;
+            bottom: 0;
+            right: 10%;
+        }
+        .meinv-6{
+            height: 350px;
+            width: 250px;
+            background: lightgoldenrodyellow;
+            float: left;
+            margin-top: 10px;
+            margin-right: 10px;
+        }
+        .jia{
+            width: 100%;
+            height: 130px;
+            float: left;
+            position: relative;
+        }
+        .jia-1{
+            position: absolute;
+            right: 50%;
+            bottom: 50%;
+        }
+        .shuoming{
+            width: 100%;
+            height: 400px;
+            float: left;
+            background: black;
+            position: relative;
+
+        }
+        .shuoming-1{
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            left: 15%;
+            top: 10%;
+        }
+        .shuoming-2{
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            left: 28%;
+            top:10%;
+            color: white;
+        }
+        .shuoming-3{
+            height: 100%;
+            width: 100%;
+            float: left;
+            color: white;
+            position: absolute;
+            left: 40%;
+            top:5%;
+        }
+        .shuoming-4{
+             height: 100%;
+             width: 100%;
+             float: left;
+             color: white;
+             position: absolute;
+             left: 50%;
+             top:5%;
+         }
+        .shuoming-5{
+            height: 100%;
+            width: 100%;
+            float: left;
+            color: white;
+            position: absolute;
+            left: 60%;
+            top:5%;
+        }
+        .shuoming-6{
+            height: 100%;
+            width: 100%;
+            float: left;
+            color: white;
+            position: absolute;
+            left: 70%;
+            top:5%;
+        }
+        .shuoming-7{
+            height: 40px;
+            width: 50px;
+            background: gainsboro;
+            position: absolute;
+            float: left;
+            left: 90%;
+            bottom: 10%;
+            opacity: 0.99;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="outer">
+
+        <div class="header">
+            <div class="center">
+                <div class="center-1">
+                    <div class="img">
+                        <img style="width: 100px;height: 50px" src="../img2/logonew.png" height="104" width="266"/>
+                    </div>
+
+                        <div  class="biao1"><a>首页</a></div>
+                        <div  class="biao1"><a>酷玩</a></div>
+                        <div  class="biao1"><a>导购</a></div>
+                        <div  class="biao1"><a>试用</a></div>
+                        <div  class="biao1"><a>报告</a></div>
+
+                        <div class="img1">
+                            <img src="../img2/search.png" height="24px" width="22">
+
+                        </div>
+                        <div class="an">
+                            <input style="height: 50%;width: 50px;background: white;border: 1px solid red;" type="button"value="注册">
+                        </div>
+                </div>
+                <div class="tu">
+                    <div class="tu1">
+                        <img src="../img2/original.jpg">
+                    </div>
+                    <div class="zi">
+
+                        <h2>幻响小贝HiFi2.1音箱</h2>
+                        <div class="zi-1">126人申请 </div>
+                        <div class="zi-2"> ¥599</div>
+                        <div class="zi-3">20台</div></br>
+                        <div><p>申请时间剩余：13天5小时37分钟</p></div>
+                        <div class="shen">立即申请</div>
+                    </div>
+
+                </div>
+
+                <div class="re">
+                    <div class="re-1">热门试用</div>
+
+                </div>
+
+                <div class="limg">
+                    <div class="limg-1">
+                       <div class="limg-1-1">
+                           <img src="../img2/prev.png">
+                       </div>
+                    </div>
+
+                    <div class="limg-2">
+
+                        <div class="limg-2-1">
+                        <img style="width: 300px" src="../img2/hot9.jpg">
+                            <div class="limg-2-a">首发</div>
+                        </div>
+
+
+
+                        <div class="ba">巴慕达 The Toaster 烤面包机</div>
+                        <div class="ba-1">¥512</div>
+                        <div class="ba-2">20台</div></br>
+                        <div class="ba-3"><p>1392申请</p></div>
+                        <div class="ba-4">剩余时间两天</div>
+
+                    </div>
+                    <div class="limg-3">
+                        <div class="limg-2-2">
+                        <img style="width: 300px" src="../img2/hot10.jpg">
+                            <div class="limg-2-b">体验师专享</div>
+                        </div>
+
+                        <div class="ba">Osprey小鹰户外运动专业腰包</div>
+                        <div class="ba-1">¥512</div>
+                        <div class="ba-2">20台</div></br>
+                        <div class="ba-3"><p>1392申请</p></div>
+                        <div class="ba-4">查看试用名单</div>
+                    </div>
+                    <div class="limg-4">
+                        <div class="limg-2-1">
+                        <img style="width: 300px" src="../img2/hot11.jpg">
+                            <div class="limg-2-a">首发</div>
+                        </div>
+
+
+
+                        <div class="ba">Liquid Image 338 运动摄像眼镜</div>
+                        <div class="ba-1">¥512</div>
+                        <div class="ba-2">20台</div></br>
+                        <div class="ba-3"><p>1392申请</p></div>
+                        <div class="ba-4">剩余时间两天</div>
+                    </div>
+                    <div class="limg-5">
+                        <div class="limg-2-1">
+                        <img style="width: 300px" src="../img2/hot12.jpg">
+                            <div class="limg-2-a">首发</div>
+                        </div>
+                        <div class="ba">巴慕达 The Toaster 烤面包机</div>
+                        <div class="ba-1">¥512</div>
+                        <div class="ba-2">20台</div></br>
+                        <div class="ba-3"><p>1392申请</p></div>
+                        <div class="ba-4">剩余时间两天</div>
+                    </div>
+                    <div class="limg-6">
+                        <div class="limg-6-1">
+                        <img src="../img2/next.png">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="baogao">
+                    <div class="baogao1">
+                        <div class="baogao1-1">报告精选</div>
+                    </div>
+                    <div class="meinv">
+                        <div class="meinv-1">
+
+                            </div>
+                            <div class="meinv-2">
+                                    <div>
+                                    <img style="width: 300px;" src="../img2/re1.jpg">
+                                    </div>
+                                    <div class="meinv-2-1"> 空气净化器里面学问多得惊呆你，你选对了吗？</div>
+                                    <div class="meinv-2-2">
+                                        ● 苏苏
+                                    </div>
+                                <div class="meinv-2-3">
+                                    <img style="width: 30px;height: 30px" src="../img2/use5.png">
+                                    <span>3</span>
+                                </div>
+                                <div class="meinv-2-4">
+                                    <img style="width: 30px;height: 30px" src="../img2/reply.png">
+                                    <span>3</span>
+                                </div>
+
+                            </div>
+
+                        <div class="meinv-3">
+                            <div>
+                                <img style="width: 300px;" src="../img2/re2.jpg">
+                            </div>
+                            <div class="meinv-3-1"> 怎么骑都不会累的智能自行车：云马 C1试骑体验</div>
+                            <div class="meinv-3-2">
+                                ● 好吗
+                            </div>
+                            <div class="meinv-3-3">
+                                <img style="width: 30px;height: 30px" src="../img2/use5.png">
+                                <span>3</span>
+                            </div>
+                            <div class="meinv-3-4">
+                                <img style="width: 30px;height: 30px" src="../img2/reply.png">
+                                <span>3</span>
+                            </div>
+                        </div>
+
+                        <div class="meinv-4">
+                            <div>
+                                <img style="width: 300px;" src="../img2/re3.jpg">
+                            </div>
+                            <div class="meinv-4-1"> 声音不是最优秀，但它形音完美的结合，足够打动人心</div>
+                            <div class="meinv-4-2">
+                                ● iAra
+                            </div>
+                            <div class="meinv-4-3">
+                                <img style="width: 30px;height: 30px" src="../img2/use5.png">
+                                <span>3</span>
+                            </div>
+                            <div class="meinv-4-4">
+                                <img style="width: 30px;height: 30px" src="../img2/reply.png">
+                                <span>3</span>
+                            </div>
+                        </div>
+                        <div class="meinv-5">
+                            <div>
+                                <img style="width: 300px;" src="../img2/re1.jpg">
+                            </div>
+                            <div class="meinv-5-1"> 风光大片信手拈来！vivo X6Plus不只是快，还是一台拍照利器</div>
+                            <div class="meinv-5-2">
+                                ● 苏苏
+                            </div>
+                            <div class="meinv-5-3">
+                                <img style="width: 30px;height: 30px" src="../img2/use5.png">
+                                <span>3</span>
+                            </div>
+                            <div class="meinv-5-4">
+                                <img style="width: 30px;height: 30px" src="../img2/reply.png">
+                                <span>3</span>
+                            </div>
+                        </div>
+                        <div class="meinv-6">
+
+                        </div>
+
+                    </div>
+                    <div class="meinv">
+                        <div class="meinv-1">
+
+                        </div>
+                        <div class="meinv-2">
+                            <div>
+                                <img style="width: 300px;" src="../img2/re1.jpg">
+                            </div>
+                            <div class="meinv-2-1"> 空气净化器里面学问多得惊呆你，你选对了吗？</div>
+                            <div class="meinv-2-2">
+                                ● 苏苏
+                            </div>
+                            <div class="meinv-2-3">
+                                <img style="width: 30px;height: 30px" src="../img2/use5.png">
+                                <span>3</span>
+                            </div>
+                            <div class="meinv-2-4">
+                                <img style="width: 30px;height: 30px" src="../img2/reply.png">
+                                <span>3</span>
+                            </div>
+
+                        </div>
+
+                        <div class="meinv-3">
+                            <div>
+                                <img style="width: 300px;" src="../img2/re2.jpg">
+                            </div>
+                            <div class="meinv-3-1"> 怎么骑都不会累的智能自行车：云马 C1试骑体验</div>
+                            <div class="meinv-3-2">
+                                ● 好吗
+                            </div>
+                            <div class="meinv-3-3">
+                                <img style="width: 30px;height: 30px" src="../img2/use5.png">
+                                <span>3</span>
+                            </div>
+                            <div class="meinv-3-4">
+                                <img style="width: 30px;height: 30px" src="../img2/reply.png">
+                                <span>3</span>
+                            </div>
+                        </div>
+
+                        <div class="meinv-4">
+                            <div>
+                                <img style="width: 300px;" src="../img2/re3.jpg">
+                            </div>
+                            <div class="meinv-4-1"> 声音不是最优秀，但它形音完美的结合，足够打动人心</div>
+                            <div class="meinv-4-2">
+                                ● iAra
+                            </div>
+                            <div class="meinv-4-3">
+                                <img style="width: 30px;height: 30px" src="../img2/use5.png">
+                                <span>3</span>
+                            </div>
+                            <div class="meinv-4-4">
+                                <img style="width: 30px;height: 30px" src="../img2/reply.png">
+                                <span>3</span>
+                            </div>
+                        </div>
+                        <div class="meinv-5">
+                            <div>
+                                <img style="width: 300px;" src="../img2/re1.jpg">
+                            </div>
+                            <div class="meinv-5-1"> 风光大片信手拈来！vivo X6Plus不只是快，还是一台拍照利器</div>
+                            <div class="meinv-5-2">
+                                ● 苏苏
+                            </div>
+                            <div class="meinv-5-3">
+                                <img style="width: 30px;height: 30px" src="../img2/use5.png">
+                                <span>3</span>
+                            </div>
+                            <div class="meinv-5-4">
+                                <img style="width: 30px;height: 30px" src="../img2/reply.png">
+                                <span>3</span>
+                            </div>
+                        </div>
+                        <div class="meinv-6">
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="dao">
+
+                    <div class="baogao1">
+                        <div class="baogao1-1">导购精选</div>
+                    </div>
+                    <div class="meinv">
+                        <div class="meinv-1">
+
+                        </div>
+                        <div class="meinv-2">
+                            <div>
+                                <img style="width: 300px;" src="../img2/g1.jpg">
+                            </div>
+                            <div class="meinv-2-1"> 花万元把蜗居秒变“豪宅”？这12件家具就能帮你办到</div>
+                            <div class="meinv-2-2">
+
+                            </div>
+                            <div class="meinv-2-3">
+                                <img style="width: 30px;height: 30px" src="../img2/use5.png">
+                                <span>3</span>
+                            </div>
+                            <div class="meinv-2-4">
+                                <img style="width: 30px;height: 30px" src="../img2/reply.png">
+                                <span>3</span>
+                            </div>
+
+                        </div>
+
+                        <div class="meinv-3">
+                            <div>
+                                <img style="width: 300px;" src="../img2/g2.jpg">
+                            </div>
+                            <div class="meinv-3-1"> 到底有没有完美的iPhone手机配件，答案都在这里</div>
+                            <div class="meinv-3-2">
+
+                            </div>
+                            <div class="meinv-3-3">
+                                <img style="width: 30px;height: 30px" src="../img2/use5.png">
+                                <span>3</span>
+                            </div>
+                            <div class="meinv-3-4">
+                                <img style="width: 30px;height: 30px" src="../img2/reply.png">
+                                <span>3</span>
+                            </div>
+                        </div>
+
+                        <div class="meinv-4">
+                            <div>
+                                <img style="width: 300px;" src="../img2/g3.jpg">
+                            </div>
+                            <div class="meinv-4-1">2016，这8支钢笔够你装逼一整年 </div>
+                            <div class="meinv-4-2">
+
+                            </div>
+                            <div class="meinv-4-3">
+                                <img style="width: 30px;height: 30px" src="../img2/use5.png">
+                                <span>3</span>
+                            </div>
+                            <div class="meinv-4-4">
+                                <img style="width: 30px;height: 30px" src="../img2/reply.png">
+                                <span>3</span>
+                            </div>
+                        </div>
+                        <div class="meinv-5">
+                            <div>
+                                <img style="width: 300px;" src="../img2/g4.jpg">
+                            </div>
+                            <div class="meinv-5-1">他用12年找一把完美 剃须刀，给你2万字终极购买指南</div>
+                            <div class="meinv-5-2">
+
+                            </div>
+                            <div class="meinv-5-3">
+                                <img style="width: 30px;height: 30px" src="../img2/use5.png">
+                                <span>3</span>
+                            </div>
+                            <div class="meinv-5-4">
+                                <img style="width: 30px;height: 30px" src="../img2/reply.png">
+                                <span>3</span>
+                            </div>
+                        </div>
+                        <div class="meinv-6">
+
+                        </div>
+
+
+
+                </div>
+
+
+            </div>
+
+            <div>
+                <div class="baogao1">
+                    <div class="baogao1-1">导购精选</div>
+                </div>
+                <div class="meinv">
+                    <div class="meinv-1">
+
+                    </div>
+                    <div class="meinv-2">
+                        <div>
+                            <img style="width: 300px;" src="../img2/k1.jpg">
+                        </div>
+                        <div class="meinv-2-1"> SCiO 微型光谱仪
+                        <p>可以测定食物成分及营养</p>
+                        </div>
+                        <div class="meinv-2-2">
+                            ¥ 1212
+                        </div>
+                        <div class="meinv-2-3">
+                            <img style="width: 30px;height: 30px" src="../img2/xinRedo.png">
+                            <span>3</span>
+                        </div>
+                        <div class="meinv-2-4">
+                            <img style="width: 30px;height: 30px" src="../img2/reply.png">
+                            <span>3</span>
+                        </div>
+
+                    </div>
+
+                    <div class="meinv-3">
+                        <div>
+                            <img style="width: 300px;" src="../img2/k2.jpg">
+                        </div>
+                        <div class="meinv-3-1"> B&O BeoSound 35 音响
+                        <p>支持所有音乐流媒体服务</p>
+                        </div>
+                        <div class="meinv-3-2">
+                            ¥ 512
+                        </div>
+                        <div class="meinv-3-3">
+                            <img style="width: 30px;height: 30px" src="../img2/xinRedo.png">
+                            <span>3</span>
+                        </div>
+                        <div class="meinv-3-4">
+                            <img style="width: 30px;height: 30px" src="../img2/reply.png">
+                            <span>3</span>
+                        </div>
+                    </div>
+
+                    <div class="meinv-4">
+                        <div>
+                            <img style="width: 300px;" src="../img2/k3.jpg">
+                        </div>
+                        <div class="meinv-4-1">Mozbii 触控吸色笔
+                        <p> 能吸取65000种颜色</p>
+                        </div>
+                        <div class="meinv-4-2">
+                            ¥ 暂无
+                        </div>
+                        <div class="meinv-4-3">
+                            <img style="width: 30px;height: 30px" src="../img2/xinRedo.png">
+                            <span>3</span>
+                        </div>
+                        <div class="meinv-4-4">
+                            <img style="width: 30px;height: 30px" src="../img2/reply.png">
+                            <span>3</span>
+                        </div>
+                    </div>
+                    <div class="meinv-5">
+                        <div>
+                            <img style="width: 300px;" src="../img2/k4.jpg">
+                        </div>
+                        <div class="meinv-5-1">XPLORER 2 航拍飞行器
+                        <p>搭载自动避障系统</p>
+                        </div>
+                        <div class="meinv-5-2">
+                            ¥ 433
+                        </div>
+                        <div class="meinv-5-3">
+                            <img style="width: 30px;height: 30px" src="../img2/xinRedo.png">
+                            <span>3</span>
+                        </div>
+                        <div class="meinv-5-4">
+                            <img style="width: 30px;height: 30px" src="../img2/reply.png">
+                            <span>3</span>
+                        </div>
+                    </div>
+                    <div class="meinv-6">
+
+                    </div>
+
+
+
+            </div>
+                <div class="meinv">
+                    <div class="meinv-1">
+
+                    </div>
+                    <div class="meinv-2">
+                        <div>
+                            <img style="width: 300px;" src="../img2/k1.jpg">
+                        </div>
+                        <div class="meinv-2-1"> SCiO 微型光谱仪
+                            <p>可以测定食物成分及营养</p>
+                        </div>
+                        <div class="meinv-2-2">
+                            ¥ 1212
+                        </div>
+                        <div class="meinv-2-3">
+                            <img style="width: 30px;height: 30px" src="../img2/xinRedo.png">
+                            <span>3</span>
+                        </div>
+                        <div class="meinv-2-4">
+                            <img style="width: 30px;height: 30px" src="../img2/reply.png">
+                            <span>3</span>
+                        </div>
+
+                    </div>
+
+                    <div class="meinv-3">
+                        <div>
+                            <img style="width: 300px;" src="../img2/k2.jpg">
+                        </div>
+                        <div class="meinv-3-1"> B&O BeoSound 35 音响
+                            <p>支持所有音乐流媒体服务</p>
+                        </div>
+                        <div class="meinv-3-2">
+                            ¥ 512
+                        </div>
+                        <div class="meinv-3-3">
+                            <img style="width: 30px;height: 30px" src="../img2/xinRedo.png">
+                            <span>3</span>
+                        </div>
+                        <div class="meinv-3-4">
+                            <img style="width: 30px;height: 30px" src="../img2/reply.png">
+                            <span>3</span>
+                        </div>
+                    </div>
+
+                    <div class="meinv-4">
+                        <div>
+                            <img style="width: 300px;" src="../img2/k3.jpg">
+                        </div>
+                        <div class="meinv-4-1">Mozbii 触控吸色笔
+                            <p> 能吸取65000种颜色</p>
+                        </div>
+                        <div class="meinv-4-2">
+                            ¥ 暂无
+                        </div>
+                        <div class="meinv-4-3">
+                            <img style="width: 30px;height: 30px" src="../img2/xinRedo.png">
+                            <span>3</span>
+                        </div>
+                        <div class="meinv-4-4">
+                            <img style="width: 30px;height: 30px" src="../img2/reply.png">
+                            <span>3</span>
+                        </div>
+                    </div>
+                    <div class="meinv-5">
+                        <div>
+                            <img style="width: 300px;" src="../img2/k4.jpg">
+                        </div>
+                        <div class="meinv-5-1">XPLORER 2 航拍飞行器
+                            <p>搭载自动避障系统</p>
+                        </div>
+                        <div class="meinv-5-2">
+                            ¥ 433
+                        </div>
+                        <div class="meinv-5-3">
+                            <img style="width: 30px;height: 30px" src="../img2/xinRedo.png">
+                            <span>3</span>
+                        </div>
+                        <div class="meinv-5-4">
+                            <img style="width: 30px;height: 30px" src="../img2/reply.png">
+                            <span>3</span>
+                        </div>
+                    </div>
+                    <div class="meinv-6">
+
+                    </div>
+
+
+
+                </div>
+
+                <div class="meinv">
+                    <div class="meinv-1">
+
+                    </div>
+                    <div class="meinv-2">
+                        <div>
+                            <img style="width: 300px;" src="../img2/k1.jpg">
+                        </div>
+                        <div class="meinv-2-1"> SCiO 微型光谱仪
+                            <p>可以测定食物成分及营养</p>
+                        </div>
+                        <div class="meinv-2-2">
+                            ¥ 1212
+                        </div>
+                        <div class="meinv-2-3">
+                            <img style="width: 30px;height: 30px" src="../img2/xinRedo.png">
+                            <span>3</span>
+                        </div>
+                        <div class="meinv-2-4">
+                            <img style="width: 30px;height: 30px" src="../img2/reply.png">
+                            <span>3</span>
+                        </div>
+
+                    </div>
+
+                    <div class="meinv-3">
+                        <div>
+                            <img style="width: 300px;" src="../img2/k2.jpg">
+                        </div>
+                        <div class="meinv-3-1"> B&O BeoSound 35 音响
+                            <p>支持所有音乐流媒体服务</p>
+                        </div>
+                        <div class="meinv-3-2">
+                            ¥ 512
+                        </div>
+                        <div class="meinv-3-3">
+                            <img style="width: 30px;height: 30px" src="../img2/xinRedo.png">
+                            <span>3</span>
+                        </div>
+                        <div class="meinv-3-4">
+                            <img style="width: 30px;height: 30px" src="../img2/reply.png">
+                            <span>3</span>
+                        </div>
+                    </div>
+
+                    <div class="meinv-4">
+                        <div>
+                            <img style="width: 300px;" src="../img2/k3.jpg">
+                        </div>
+                        <div class="meinv-4-1">Mozbii 触控吸色笔
+                            <p> 能吸取65000种颜色</p>
+                        </div>
+                        <div class="meinv-4-2">
+                            ¥ 暂无
+                        </div>
+                        <div class="meinv-4-3">
+                            <img style="width: 30px;height: 30px" src="../img2/xinRedo.png">
+                            <span>3</span>
+                        </div>
+                        <div class="meinv-4-4">
+                            <img style="width: 30px;height: 30px" src="../img2/reply.png">
+                            <span>3</span>
+                        </div>
+                    </div>
+                    <div class="meinv-5">
+                        <div>
+                            <img style="width: 300px;" src="../img2/k4.jpg">
+                        </div>
+                        <div class="meinv-5-1">XPLORER 2 航拍飞行器
+                            <p>搭载自动避障系统</p>
+                        </div>
+                        <div class="meinv-5-2">
+                            ¥ 433
+                        </div>
+                        <div class="meinv-5-3">
+                            <img style="width: 30px;height: 30px" src="../img2/xinRedo.png">
+                            <span>3</span>
+                        </div>
+                        <div class="meinv-5-4">
+                            <img style="width: 30px;height: 30px" src="../img2/reply.png">
+                            <span>3</span>
+                        </div>
+                    </div>
+                    <div class="meinv-6">
+
+                    </div>
+
+
+
+                </div>
+                <div class="meinv">
+                    <div class="meinv-1">
+
+                    </div>
+                    <div class="meinv-2">
+                        <div>
+                            <img style="width: 300px;" src="../img2/k1.jpg">
+                        </div>
+                        <div class="meinv-2-1"> SCiO 微型光谱仪
+                            <p>可以测定食物成分及营养</p>
+                        </div>
+                        <div class="meinv-2-2">
+                            ¥ 1212
+                        </div>
+                        <div class="meinv-2-3">
+                            <img style="width: 30px;height: 30px" src="../img2/xinRedo.png">
+                            <span>3</span>
+                        </div>
+                        <div class="meinv-2-4">
+                            <img style="width: 30px;height: 30px" src="../img2/reply.png">
+                            <span>3</span>
+                        </div>
+
+                    </div>
+
+                    <div class="meinv-3">
+                        <div>
+                            <img style="width: 300px;" src="../img2/k2.jpg">
+                        </div>
+                        <div class="meinv-3-1"> B&O BeoSound 35 音响
+                            <p>支持所有音乐流媒体服务</p>
+                        </div>
+                        <div class="meinv-3-2">
+                            ¥ 512
+                        </div>
+                        <div class="meinv-3-3">
+                            <img style="width: 30px;height: 30px" src="../img2/xinRedo.png">
+                            <span>3</span>
+                        </div>
+                        <div class="meinv-3-4">
+                            <img style="width: 30px;height: 30px" src="../img2/reply.png">
+                            <span>3</span>
+                        </div>
+                    </div>
+
+                    <div class="meinv-4">
+                        <div>
+                            <img style="width: 300px;" src="../img2/k3.jpg">
+                        </div>
+                        <div class="meinv-4-1">Mozbii 触控吸色笔
+                            <p> 能吸取65000种颜色</p>
+                        </div>
+                        <div class="meinv-4-2">
+                            ¥ 暂无
+                        </div>
+                        <div class="meinv-4-3">
+                            <img style="width: 30px;height: 30px" src="../img2/xinRedo.png">
+                            <span>3</span>
+                        </div>
+                        <div class="meinv-4-4">
+                            <img style="width: 30px;height: 30px" src="../img2/reply.png">
+                            <span>3</span>
+                        </div>
+                    </div>
+                    <div class="meinv-5">
+                        <div>
+                            <img style="width: 300px;" src="../img2/k4.jpg">
+                        </div>
+                        <div class="meinv-5-1">XPLORER 2 航拍飞行器
+                            <p>搭载自动避障系统</p>
+                        </div>
+                        <div class="meinv-5-2">
+                            ¥ 433
+                        </div>
+                        <div class="meinv-5-3">
+                            <img style="width: 30px;height: 30px" src="../img2/xinRedo.png">
+                            <span>3</span>
+                        </div>
+                        <div class="meinv-5-4">
+                            <img style="width: 30px;height: 30px" src="../img2/reply.png">
+                            <span>3</span>
+                        </div>
+                    </div>
+                    <div class="meinv-6">
+
+                    </div>
+
+                </div>
+
+                <div class="jia">
+                    <div class="jia-1">
+                        <img src="../img2/more.png">
+                        <span>点击加载更多</span>
+                    </div>
+
+                </div>
+
+                <div class="shuoming">
+                    <div class="shuoming-1">
+                        <img src="../img2/code.png">
+                    </div>
+                    <div class="shuoming-2">
+                        <img src="../img2/logoImg.jpg">
+                        <p>全球酷玩试用导购平台</p>
+                        <p>酷*新奇*好玩*品质</p>
+                        <p>微信添加</p>
+                        <p>获取我们的服务</p>
+                    </div>
+                    <div class="shuoming-3">
+                        <h4>免费试用</h4>
+                        <p>试用流程</p>
+                        <p>如何提高成功率</p>
+                    </div>
+                    <div class="shuoming-4">
+                        <h4>友情链接</h4>
+                        <p>制东西</p>
+                        <p>搜狐IT</p>
+                        <p>搜狐数码</p>
+                        <p>泡泡数码</p>
+
+                    </div>
+                    <div class="shuoming-5">
+                        <h4>购买攻略</h4>
+                        <p>美亚海淘教程</p>
+                        <p>日亚海淘教程</p>
+                        <p>海淘转运攻略</p>
+
+                    </div>
+                    <div class="shuoming-6">
+                        <h4>厂商合作</h4>
+                        <p>关于极果</p>
+                        <p>联系我们de</p>
+                        <p>商务合作：BD@jiguo.com</p>
+                        <p>CEO邮箱：CEO@jiguo.com</p>
+                    </div>
+
+                    <div class="shuoming-7">
+                       <img src="../img2/back.png">
+                    </div>
+                </div>
+        </div>
+    </div>
+</body>
+</html>
